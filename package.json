@@ -1,0 +1,22 @@
+{
+  "name": "histoire-du-leman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "map": "node convert-to-json",
+    "deco": "node get-deco",
+    "watch": "watchify main.js -o public/script.js"
+  },
+  "author": "idris-maps.com",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "babyparse": "^0.4.3",
+    "jsonfile": "^2.2.3",
+    "node-xml-lite": "0.0.6"
+  },
+  "dependencies": {
+    "d3": "^3.5.14"
+  }
+}
